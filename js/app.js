@@ -200,7 +200,7 @@ btnLocations.addEventListener('click', async () =>{
 //Evento clic de episodios
 btnEpisodes.addEventListener('click', async () =>{
     setActiveButton(btnEpisodes);
-    const data= await fetchData('/episodes');
+    const data= await fetchData('/episode ');
     renderEpisodes(data);
 });
 
